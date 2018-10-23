@@ -32,4 +32,16 @@ public class MainTest {
 		
 		Main.main(args);
 	}
+	
+	@Test
+	public void testForJavaAlgorithms() {
+		// TASK2 TODO GitHub에서 작은 규모의 자바 프로젝트를 2개를 찾아, arff파일을 생성하시오. 파일이름은 [project이름].arff data디렉터리에 저장되게 하고
+		// 생성이 된 후 commit/push해야 함.
+		// 위 test main을 참고하여 실행하면 됨.
+		String[] args = {"/Users/DeoBM/Documents/Java-Algorithms", "data/Java-Algorithms.arff"};
+		
+		assertEquals(args.length,2);
+		
+		Main.main(args);
+	}
 }
